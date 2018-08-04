@@ -1,0 +1,7 @@
+#titulo, .missao { /* # representa o id*/
+	font-family: Arial;
+}
+
+.introducao, .missao { /* . representa a class*/
+	color: red;
+}

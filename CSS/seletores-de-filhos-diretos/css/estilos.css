@@ -1,0 +1,12 @@
+/* > significa filho direto de article
+article > .importante { 
+	color: red;
+}
+
+article > .importante > strong {
+	color: red;
+}
+*/
+article .importante > strong {
+	color: red;
+}

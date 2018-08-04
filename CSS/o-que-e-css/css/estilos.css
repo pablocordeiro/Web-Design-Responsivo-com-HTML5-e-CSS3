@@ -1,0 +1,15 @@
+h1 { /*strong representa a tag*/
+	font-family: Verdana;
+}
+
+#titulo { /* # representa o id*/
+	font-family: Arial;
+}
+
+.introducao, .missao { /* . representa a class*/
+	color: red;
+}
+
+p.missao { /* demonstrando o uso da tag + class*/
+	font-family: Arial;
+}

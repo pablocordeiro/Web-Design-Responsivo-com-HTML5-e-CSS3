@@ -1,0 +1,28 @@
+body {
+	font-size: 32px;
+}
+
+a {
+	border-width: thick; /*thin, medium, thick*/
+	border-color: red;
+	border-style: solid; /*solid, dashed, dotted*/
+
+	border: thick blue solid;
+	border-bottom: 5px dotted #0f0;
+  border-right: 5px dotted #0f0;
+}
+
+p {
+	width: 300px;
+	height: 300px;
+	background-color: #ccc;
+
+	border: 5px solid black;
+	border-radius: 20px; /* Arredonda bordas*/
+	border-top-right-radius: 10px;
+
+	border-radius: 20px 10px; /*dois valores arredonda diagonais*/
+	border-radius: 20px 10px 0px 50px; /* arredonda borda a borda, começando da superior esqueda e segue em sentido horário*/
+
+	
+}
